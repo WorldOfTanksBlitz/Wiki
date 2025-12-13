@@ -3,23 +3,26 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "我的 Awesome 项目"
+  text: "一个 VitePress 站点"
+  tagline: 我的项目 tagline
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Markdown 示例
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: API 示例
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 功能 A
+    details: 示例示例示例示例示例示例示例示例示例示例示例示例示例
+  - title: 功能 B
+    details: 示例示例示例示例示例示例示例示例示例示例示例示例示例
+  - title: 功能 C
+    details: 示例示例示例示例示例示例示例示例示例示例示例示例示例
 ---
 
+---
+
+<!--@include: ./README.md-->
