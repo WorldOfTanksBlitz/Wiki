@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Vitepress 模板",
   description: "一个 VitePress 站点",
-  base: "/",
+  base: "/", // always ends with slash
   cleanUrls: true,
   head: [
     ["link", { rel: "icon", href: "https://icons.siiway.org/siiway/icon.svg" }],
