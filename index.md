@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "World of Tanks Blitz Wiki"
+  name: "World of Tanks Blitz - Fan Wiki"
   text: "坦克世界闪击战中文百科"
   tagline: 由中文社区协作构建的《坦克世界闪击战》百科全书。
   actions:
