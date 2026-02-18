@@ -4,21 +4,21 @@ layout: home
 
 hero:
   name: "World of Tanks Blitz - Fan Wiki"
-  text: "World of Tanks Blitz Wiki"
-  tagline: A World of Tanks Blitz encyclopedia built collaboratively by the Chinese community.
+  text: "坦克世界闪击战中文百科"
+  tagline: 由中文社区协作构建的《坦克世界闪击战》百科全书。
   actions:
     - theme: brand
-      text: Explore Now
+      text: 立即查阅
       link: /markdown-examples
     - theme: alt
-      text: About | Contribute
+      text: 关于 | 参与贡献
       link: /about
 
 features:
-  - title: 🛡️ Full Tank Database
-    details: Comprehensive coverage of detailed parameters for vehicles of all nations and tiers.
-  - title: 🗺️ Tactical Map Analysis
-    details: In-depth analysis of positioning, rotations, and movement strategies for all vehicle types to improve win rates.
-  - title: 🤝 Community Driven
-    details: Content is maintained by players from the Chinese community, ensuring accuracy and up-to-date information.
+  - title: 🛡️ 全量坦克数据
+    details: 覆盖游戏内各国家、等级战车详细参数。
+  - title: 🗺️ 战术地图解析
+    details: 深度分析点位布局、转场时机及各车型走位策略，提升实战胜率。
+  - title: 🤝 社区协作驱动
+    details: 内容由中文社区玩家共同维护，确保信息的准确性与时效性。
 ---
