@@ -7,7 +7,7 @@ export default defineConfig({
   // base: "/", // always ends with slash
   cleanUrls: true,
   head: [
-    ["link", { rel: "icon", href: "https://play-lh.googleusercontent.com/lKul9YKVt5iCq0FchXmZUDaIQuyYxUq5DUO1Ttp_k4ND7Ox4kRENUHlluvzIWIT9PhEgZlWAvAIfIpHaSZl3PrQ" }],
+    ["link", { rel: "icon", href: "/assets/images/WoTB-Icon.png" }],
   ],
   lastUpdated: true,
   themeConfig: {
@@ -18,13 +18,13 @@ export default defineConfig({
       ["/"]: [
         { text: "回到主页", link: "/" },
         {
-          text: "示例文档",
+          text: "快速导航",
           items: [
-            { text: "Markdown 示例", link: "/markdown-examples" },
-            { text: "关于 | 共同完善", link: "/关于" },
+            { text: "关于", link: "/about.md" },
+            { text: "参与贡献", link: "/participate-and-contribute.md" },
           ],
         },
-        { text: "外链示例", link: "https://not-exist.wss.moe/outlink-zh" },
+        { text: "Discord", link: "https://discord.gg/8WVUvqPrrk" },
       ],
 //      ["/en_us/"]: [
 //        { text: "Back to homepage", link: "/en_us/" },

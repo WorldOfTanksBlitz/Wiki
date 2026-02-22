@@ -8,7 +8,7 @@ hero:
   tagline: 由中文社区协作构建的《坦克世界闪击战》百科全书。
   actions:
     - theme: brand
-      text: NO
+      text: 查阅
       link: /start.md
     - theme: alt
       text: 关于
