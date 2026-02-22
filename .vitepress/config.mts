@@ -26,17 +26,17 @@ export default defineConfig({
         },
         { text: "外链示例", link: "https://not-exist.wss.moe/outlink-zh" },
       ],
-      ["/en_us/"]: [
-        { text: "Back to homepage", link: "/en_us/" },
-        {
-          text: "Example docs",
-          items: [
-            { text: "Markdown Examples", link: "/en_us/md" },
-            { text: "About | Contribute", link: "/en_us/about" },
-          ],
-        },
-        { text: "Outlink Test", link: "https://not-exist.wss.moe/outlink-en" },
-      ],
+//      ["/en_us/"]: [
+//        { text: "Back to homepage", link: "/en_us/" },
+//        {
+//          text: "Example docs",
+//          items: [
+//            { text: "Markdown Examples", link: "/en_us/md" },
+//           { text: "About | Contribute", link: "/en_us/about" },
+//          ],
+//        },
+//        { text: "Outlink Test", link: "https://not-exist.wss.moe/outlink-en" },
+//      ],
     },
 
     socialLinks: [
@@ -63,37 +63,36 @@ export default defineConfig({
       label: "简体中文",
       lang: "zh",
     },
-    en_us: {
-      label: "English",
-      lang: "en",
-      link: "/en_us/",
+//   en_us: {
+//     label: "English",
+//     lang: "en",
+//     link: "/en_us/",
 
-      title: "World Of Tanks Blitz Wiki",
-      description: "A World of Tanks Blitz encyclopedia built by the Chinese community.",
+//     title: "World Of Tanks Blitz Wiki",
+//     description: "A World of Tanks Blitz encyclopedia built by the Chinese community.",
+//    themeConfig: {
+//      nav: [{ text: "Home", link: "/en_us/" }],
 
-      themeConfig: {
-        nav: [{ text: "Home", link: "/en_us/" }],
+//     socialLinks: [
+//       { icon: "github", link: "https://github.com/WorldOfTanksBlitz/Wiki/" },
+//       { icon: "discord", link: "https://discord.gg/8WVUvqPrrk" },
+//     ],
 
-        socialLinks: [
-          { icon: "github", link: "https://github.com/WorldOfTanksBlitz/Wiki/" },
-          { icon: "discord", link: "https://discord.gg/8WVUvqPrrk" },
-        ],
+//       editLink: {
+//         pattern: "https://github.com/WorldOfTanksBlitz/Wiki/edit/main/:path",
+//          text: "Edit this page on GitHub",
+//        },
 
-        editLink: {
-          pattern: "https://github.com/WorldOfTanksBlitz/Wiki/edit/main/:path",
-          text: "Edit this page on GitHub",
-        },
-
-        lastUpdated: {
-          text: "Last updated at",
-          formatOptions: {
-            dateStyle: "full",
-            timeStyle: "full",
-          },
-        },
-      },
-    },
-  },
+//        lastUpdated: {
+//          text: "Last updated at",
+//          formatOptions: {
+//            dateStyle: "full",
+//            timeStyle: "full",
+//          },
+//        },
+//      },
+//    },
+//  },
   markdown: {
     image: {
       lazyLoading: true,
